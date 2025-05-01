@@ -1,2 +1,2 @@
 # PROJECT-
-Developing a farmer friendly
+A farmer friendly web based platform
