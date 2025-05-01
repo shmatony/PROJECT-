@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Submit Your Story</title>
+  <link rel="stylesheet" href="Rizz.css" />
+</head>
+<body>
+    <header>
+        <h1>🌾 Farmer Friendly</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about us.html">About us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="farmers.html">Farmers</a></li>
+                <li><a href="blog.html">Farm Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="submit_blog.html">Submit Blog</a></li>
+                <li><a href="login.html">Login/Signup</a></li>
+           
+            </ul>
+        </nav>
+    </header>
+  <section class="blog-section">
+    <div class="container">
+      <h2>Share Your Story</h2>
+      <p>Tell other farmers what has worked for you, or ask questions.</p>
+      <form action="submit_blog.php" method="POST">
+        <input type="text" name="author" placeholder="Your Name" required>
+        <input type="text" name="title" placeholder="Blog Title" required>
+        <textarea name="content" rows="8" placeholder="Write your blog post here..." required></textarea>
+        <button type="submit" class="btn-green">Submit Blog</button>
+      </form>
+    </div>
+  </section>
+</body>
+</html>
